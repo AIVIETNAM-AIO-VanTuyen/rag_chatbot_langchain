@@ -66,7 +66,7 @@ GOOGLE_API_KEY=your_gemini_api_key_here
 Sau khi cài đặt xong thư viện và cấu hình API Key, bạn chạy lệnh sau trên terminal để khởi động ứng dụng Streamlit:
 
 ```bash
-streamlit run app.py
+streamlit run main.py
 ```
 
 Ứng dụng sẽ tự động mở trên trình duyệt tại địa chỉ mặc định: `http://localhost:8501`.
@@ -77,7 +77,8 @@ streamlit run app.py
 
 ```text
 multiple-pdf-chat/
-├── app.py              # File chạy ứng dụng chính (Streamlit UI + Logic)
+├── app.py              # File chứa logic và giao diện ứng dụng (Streamlit UI + Logic)
+├── main.py             # File khởi chạy ứng dụng chính
 ├── venv/               # Môi trường ảo Python
 ├── .env                # Lưu trữ API Key (Không đẩy lên Git)
 └── README.md           # Hướng dẫn sử dụng này

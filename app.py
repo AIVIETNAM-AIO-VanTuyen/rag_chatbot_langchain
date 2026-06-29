@@ -66,7 +66,4 @@ def main():
                     with st.expander(f"Đoạn văn (ID: {doc_id[:8]}...)"):
                         st.write(doc.page_content)
 
-
-if __name__ == '__main__':
-    main()
     
